@@ -2,6 +2,7 @@ body {
     background-color: darkgrey;
     width: 60%;
     margin: auto;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .content {
@@ -12,10 +13,46 @@ body {
 th,
 td,
 table {
-    border: 1px solid red
+    border: 1px solid red;
+
+}
+
+th {
+    font-size: large;
+    font-weight: 400;
+    text-align: left;
+    padding: 5px;
+}
+
+td {
+    font-size: large;
+    font-weight: 200;
+    padding: 5px;
 }
 
 img {
     width: 300px;
     height: 300px;
+}
+
+p {
+    font-size: large;
+    line-height: 2;
+    text-indent: 20px;
+    word-spacing: 2px;
+    text-align: justify;
+}
+
+h1 {
+
+    letter-spacing: 5px;
+    margin-bottom: 30px;
+}
+
+fieldset {
+    background-color: aliceblue;
+    border-color: chartreuse;
+    border-width: 3px;
+    border-radius: 30px;
+    border-style: dashed;
 }
