@@ -1,5 +1,5 @@
 body {
-    background-color: darkgrey;
+    background-color: floralwhite;
     width: 60%;
     margin: auto;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -51,10 +51,14 @@ h1 {
 
 fieldset {
     background-color: aliceblue;
-    border-color: chartreuse;
+    border-color: azure;
     border-width: 3px;
     border-radius: 30px;
     border-style: dashed;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 input[type=button] {
@@ -62,10 +66,29 @@ input[type=button] {
     border-color: blue;
     border-width: 2px;
     border-radius: 5px;
+    max-width: 60PX;
 }
 
 input[type=text],
 input[type=checkbox] {
-    background-color: aqua;
+    background-color: antiquewhite;
     border-radius: 2px;
+    margin-left: 10px;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.input-container {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
 }
